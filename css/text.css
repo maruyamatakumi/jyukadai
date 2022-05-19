@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Myfont';
+    src: url("onryou.TTF");
+}
+
+#title{
+    color: #0bd;
+    font-family: 'Myfont';
+    font-weight: bold;
+    text-align: center;
+}
+
+#text{
+    margin: 3px auto;
+    width: 98vw;
+    height: 100vh;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+    gap: 20px;
+}

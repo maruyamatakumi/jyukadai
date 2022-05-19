@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>ノート</title>
+        <meta name="description" content="テキストサイト">
+        <link rel="stylesheet" href="css/text.css">
+    </head>
+
+    <body>
+        <div class="chat-input-area">
+            <h2 id="title">ノート、メモ(.txtファイルとして保存可能)</h2>
+            <form>
+                <input type="file" id="file"><br/>
+                <textarea id="text" placeholder="note" multiple></textarea>
+            </form>
+            <div id="button">
+                <br><input type="button" id="save" value="保存">
+                <input type="button" id="load" value="読み込み">
+            </div>
+            <a id="a"></a>
+        </div>
+        <script src="js/text.js"></script>
+    </body>
+</html>

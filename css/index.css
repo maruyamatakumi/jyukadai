@@ -1,0 +1,58 @@
+body{
+    background-image: url(image/haikeiga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.button001 a {
+    background: #eee;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 280px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+}
+.button001 a:hover {
+    background: #15a7e5;
+    color: #FFF;
+}
+.button001 a:after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #06c0fe;
+    border-right: 3px solid #148aeb;
+    transform: rotate(45deg) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    border-radius: 1px;
+    transition: 0.3s ease-in-out;
+}
+.button001 a:hover:after {
+    border-color: #FFF;
+}
+
+.button001{
+    display: flex;
+    margin: auto;
+}
+
+.title{
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    margin: 200px auto;
+    border-bottom: 2px solid #0bd;
+    width: 660px;
+    border-left: auto;
+    border-right: auto;
+}

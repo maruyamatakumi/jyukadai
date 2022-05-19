@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+
+        <!--WEBタイトル-->
+        <meta charset="UTF-8">
+        <title>スケッチ</title>
+        <meta name="description" content="お絵描きアプリ">
+        <link rel="stylesheet" href="css/sketti.css">
+        <!-- <script src="sketti.js"></script> -->
+    </head>
+
+    <body>
+    
+        <!-- canvas要素 -->
+        <div id="main">
+
+            <canvas id="cv" width="500px", height="500px"></canvas>
+
+            <div id="ctrl">
+            
+                <!-- 「線の太さ」選択枠 -->
+                <input type="number" id="width" min="1" value="5">
+            
+                <!-- 「線の色」ボタン群 -->
+                <span class="cls" cl="#000"><span id="c1"></span></span>
+                <span class="cls" cl="#fff"><span id="c2"></span></span>
+                <span class="cls" cl="#f00"><span id="c3"></span></span>
+                <span class="cls" cl="#080"><span id="c4"></span></span>
+                <span class="cls" cl="#00f"><span id="c5"></span></span>
+                <span class="cls" cl="#800"><span id="c6"></span></span>
+                <span class="cls" cl="#fd0"><span id="c7"></span></span>
+                <span class="cls" cl="#fcc"><span id="c8"></span></span>
+                <span class="cls" cl="#888"><span id="c9"></span></span>
+                <span class="cls" cl="#000"><span id="c10"></span></span>
+            
+                <!-- 「線の色」選択枠 -->
+                <input type="color" id="color">
+            
+                <input type="button" id="clear" value="クリア">
+                <input type="button" id="save" value="保存">
+                <a id="a"></a>
+                <br><input type="button" id="rect" value="長方形">
+                <input type="button" id="circle" value="円">
+                <input type="button" id="stop" value="描画停止">
+
+            </div>
+        </div>
+        <script src="js/sketti.js"></script>
+    </body>
+</html>
